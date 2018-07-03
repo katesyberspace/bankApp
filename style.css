@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 5%;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    height: 84px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.logo {
+    position: absolute;
+    text-align: left;
+}
+
+img {
+    width: 20%
+}
+
+h1 {
+    font-size: 2.6em;
+    font-weight: 300;
+    color: #5b76ac;
+}
+
+main {
+    margin: 5em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+main>div {
+    border: 1px solid black;
+    background-color: #e6e8ed;
+    width: 45%;
+    text-align: center;
+    border-radius: 4%;
+    font-family: 'Ubuntu Mono', monospace;
+    box-shadow: 10px 10px 0px #666666;
+}
+
+main>div>div {
+    width: 30%;
+    height: 3em;
+    margin: 0 auto;
+}
+
+.account-name {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.input {
+    text-align: center;
+    overflow: -webkit-paged-x;
+
+}
+
+.user-input {
+    margin: 0 auto;
+}
+
+.btns {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: .5em auto;
+}
+
+.withdraw-btn,
+.dep-btn {
+    margin: 5px;
+    width: 100px;
+    background-color: #5b76ac;
+    border: 0;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: .9em;
+    box-shadow: 6px 7px 0px #666666;
+}
